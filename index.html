@@ -2,54 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Boogaloo|Sigmar+One|Staatliches" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About</title>
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Boogaloo|Sigmar+One|Staatliches" rel="stylesheet">
 </head>
 
 <body>
-    <div>
-        <nav>
-            <div class="logo">Maggie Jo Saylor</div>
-            <div class="nav-links">
-                <a href="index.html">About</a>
-                <span>|</span>
-                <a href="portfolio.html">Portfolio</a>
-                <span>|</span>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Maggie Jo Saylor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <main>
-        <section class="mainContent">
-            <h2>About Me</h2>
-            <hr>
-            </hr>
-            <img src="assets/images/mjphoto.jpg" id="meimage">
-            <p>Dancing, boardgames, improv, facilitating FUN! These are the things that bring Maggie Jo joy, and each
-                of her
-                creative endeavors are intended to spread that joy to her communities. As an aspiring web developer, she
-                brings her
-                signature humor,
-                imagination, and confidence to every project. 
-            </p>
-            <p> Maggie Jo grew up in Charleston, SC and moved to Chicago after spending time in the mountains of
-                Asheville, NC. She loves her Roscoe Village apartment filled with boardgames and musical instruments, where she lives with her
-                partner Derek and their very fluffy dog, Gator. Maggie Jo tours the country calling contra dances, and can
-                be seen performing improv with her team Proud Parents at
-                <a href="https://www.cictheater.com" target="_blank"> CIC Theater.</a></p>
-            <p> Maggie Jo's celebrity dinner guest list, living or dead: Bob Odenkirk, Shari Lewis, Jamey Stegmaier,
-                Tim Gunn, Hank Azaria, Janelle Monae, Joss Whedon, Jonathan Van Ness, Sutton Foster, George Harrison, Bo
-                Burnham, Michelle Visage, Bill
-                Amend.</p>
-        </section>
-    </main>
-    <footer>Copyright 2019</footer>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10">
+        <h1>About Me</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="assets/images/mjphoto.jpg" alt="Maggie Jo" style="width:100%" class="rounded">
+      </div>
+      <div class="col-sm-8">
+        <p>Dancing, boardgames, improv, facilitating FUN! These are the things that bring Maggie Jo joy, and each
+          of her
+          creative endeavors are intended to spread that joy to her communities. As an aspiring web developer, she
+          brings her
+          signature humor,
+          imagination, and confidence to every project.
+        </p>
+        <p> Maggie Jo grew up in Charleston, SC and moved to Chicago after spending time in the mountains of
+          Asheville, NC. She loves her Roscoe Village apartment filled with boardgames and musical instruments, where
+          she
+          lives with her
+          partner Derek and their very fluffy dog, Gator. Maggie Jo tours the country calling contra dances, and can
+          be seen performing improv with her team Proud Parents at
+          <a href="https://www.cictheater.com" target="_blank"> CIC Theater.</a></p>
+      </div>
+    </div>
+    <div class="row pt-3">
+      <p> Maggie Jo's celebrity dinner guest list, living or dead: Bob Odenkirk, Shari Lewis, Jamey Stegmaier,
+        Tim Gunn, Hank Azaria, Janelle Monae, Joss Whedon, Jonathan Van Ness, Sutton Foster, George Harrison, Bo
+        Burnham, Michelle Visage, Bill
+        Amend.</p>
+    </div>
+  </div>
+  <div id="footer" style="bottom:0 width:100% position:absolute height: $height-footer background-color: #f5f5f5;>
+      <div class="container">
+        <p class="footer-block">Copyright 2019</p>
+      </div>
+    </div>
 </body>
 
 
