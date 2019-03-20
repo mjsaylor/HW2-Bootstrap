@@ -2,57 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Boogaloo|Sigmar+One|Staatliches" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+  <!-- <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Boogaloo|Sigmar+One|Staatliches" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Maggie Jo Saylor</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Maggie Jo Saylor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <main>
-         <section class="mainContent">
-            <h2>Contact</h2>
-            <hr></hr>
-            <form>
-                Name
-                <input type="text" id="name"><br>
-                Email
-                <input type="text" id="email" placeholder="example@gmail.com"><br>
-                Message
-                <textarea id="message" placeholder="Write something..."></textarea>
-            </form> 
-            <button class="button">Submit</button>
-        </section>
-        
-    </main> 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <footer>Copyright 2019</footer>   
-     
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10">
+        <h1>Contact</h1>
+      </div>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comments</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+      </div>
+    </form>
+    <button type="button" class="btn btn-info">Submit</button>
+  </div>
+
+  <footer>Copyright 2019</footer>
+
 </body>
 
 
