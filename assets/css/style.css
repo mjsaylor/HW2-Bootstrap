@@ -1,45 +1,33 @@
-body {
-    background-image: url(../images/full-bloom.png);
-    background-color: #dddddd;
+
+
+.navbar-brand  {
+    font-family: 'Staatliches', cursive !important;
+    font-size: 26em;
+    background-color: #8550b1 !important;
+    color: white !important;
+}
+
+.nav-link {
     margin: 0;
-    padding: 0;
-    /* position: relative; */
-    min-height: 100%;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;    
 }
 
-body > div {
-    background-color: white;
-    margin: 0;
-    height: 90px;
-    width: 100%;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #cccccc;
-}
-
-nav {
-    height: 90px;
-    width: 960px;
-    background: white;
-    margin: 0 auto;
-    overflow: auto;
-}
-
-.logo {
-    height: 72px;
-    width: 14%;
-    text-align: left;
-    font-size: 30px;
-    letter-spacing: 3px;
-    font-weight: bold;
+h1 {
+    font-size: 26em;
     font-family: 'Staatliches', cursive;
-    background-color: #8550b1;
-    color: white;
-    float: left;
-    padding: 14px 18px 4px 18px;
+    letter-spacing: 2px;
+    color: #8550b1;
+    font-weight: bold;
 }
 
-a {
+p {
+    line-height: 30px;
+    color: #777777;
+    font-family: 'Abel', sans-serif;    
+}
+
+/* a {
     text-decoration: none;
     color: #777777;
     opacity: 0.5;
@@ -50,16 +38,7 @@ span {
     padding-left: 30px;
     padding-right: 30px;
 }
-.nav-links {
-    padding-top: 34px;
-    padding-right: 0;
-    width: auto;
-    float: right;
-    background-color: white;
-    margin: 0;
-    font-size: 20px;
-    font-family: 'Abel', sans-serif;    
-}
+
 
 .mainContent {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -73,16 +52,7 @@ span {
     overflow: auto;
 }
 
-h2 {
-    font-size: 26px;
-    font-family: 'Staatliches', cursive;
-    letter-spacing: 2px;
-    color: #8550b1;
-    font-weight: bold;
-    margin: 30px;
-    padding-top: 15px;
-    text-align: right;
-}
+
 
 hr {
     display: block;
@@ -93,12 +63,7 @@ hr {
     margin: 30px;
     padding: 0;
 }
-p {
-    line-height: 30px;
-    margin: -7px 30px 30px 30px;
-    color: #777777;
-    font-family: 'Abel', sans-serif;    
-}
+
 
 form {
     font-family: 'Abel', sans-serif;
@@ -170,7 +135,7 @@ textarea {
     -ms-filter: "FlipH";
 }
 
-.card {
+/* .card {
     position: relative;
     float: left;
     height: 200px;
@@ -214,4 +179,4 @@ footer {
     font-size:12px;
     text-align:center;
     margin-top: 100px;
-  }
+  } */ */
