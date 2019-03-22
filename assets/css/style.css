@@ -1,9 +1,9 @@
 
 
 .navbar-brand  {
-    font-family: 'Staatliches', cursive !important;
+    font-family: 'Staatliches', cursive;
     font-size: 26em;
-    background-color: #8550b1 !important;
+    background-color: #8550b1;
     color: white !important;
 }
 
