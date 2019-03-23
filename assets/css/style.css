@@ -1,30 +1,62 @@
 
 
+.navbar {
+    padding: 0 4rem !important;
+}
+
 .navbar-brand  {
     font-family: 'Staatliches', cursive;
-    font-size: 26em;
+    font-size: 2rem !important;
     background-color: #8550b1;
     color: white !important;
+    padding: 1rem;
 }
 
 .nav-link {
-    margin: 0;
     font-size: 20px;
     font-family: 'Abel', sans-serif;    
 }
 
 h1 {
-    font-size: 26em;
+    font-size: 2em !important;
     font-family: 'Staatliches', cursive;
     letter-spacing: 2px;
     color: #8550b1;
     font-weight: bold;
+    padding: 2rem 0;
 }
 
 p {
     line-height: 30px;
     color: #777777;
     font-family: 'Abel', sans-serif;    
+}
+
+.caption {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    font-family: 'Staatliches', cursive;
+    background-color: #8550b1;
+    color: white;
+    text-align:right;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+.btn-info {
+    font-family: 'Staatliches', cursive;
+    background-color: #8550b1 !important;
+    letter-spacing: 1px;
+    border-width: 0 !important;
 }
 
 /* a {
@@ -104,20 +136,7 @@ textarea {
     resize: none;
 }  
 
-.button {
-    font-family: 'Staatliches', cursive;
-    background-color: #8550b1;;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0 30px 30px 30px;
-    cursor: pointer;
-    border-radius: 8px;
-}
+
 
 #meimage {
     border-style: solid;
@@ -135,7 +154,7 @@ textarea {
     -ms-filter: "FlipH";
 }
 
-/* .card {
+/* #h3 {
     position: relative;
     float: left;
     height: 200px;
@@ -150,19 +169,6 @@ textarea {
     width: 100%;
 }
 
-.caption {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 12px;
-    font-family: 'Staatliches', cursive;
-    background-color: #8550b1;
-    color: white;
-    text-align:right;
-    font-size: 20px;
-    letter-spacing: 2px;
 
 }
 
